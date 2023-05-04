@@ -12,7 +12,7 @@ function Users({users}) {
           }>
             
               <h5>{user.first_name + ` ` + user.last_name}</h5>
-              <img src={user.avatar} alt="" style={{borderRadius: "50%"}} />
+              <img src={user.avatar} alt="" style={{borderRadius: "50%", height: "128px", width: "128px", objectFit: "contain"}} />
             
           </li>
         ))}
