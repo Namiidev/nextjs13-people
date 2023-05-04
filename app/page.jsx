@@ -14,7 +14,6 @@ async function IndexPage() {
   const users = await fetchUsers(2);
   return (
     <div>
-      <h1>Hello World!</h1>
       <Users users={users} ></Users>
     </div>
   );
